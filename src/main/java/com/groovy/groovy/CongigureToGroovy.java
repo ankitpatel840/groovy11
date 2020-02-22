@@ -10,6 +10,10 @@ import java.lang.reflect.InvocationTargetException;
 
 public class CongigureToGroovy
 {
+
+
+
+
     public static void main(String[] args) throws IOException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
 
 
@@ -23,6 +27,9 @@ public class CongigureToGroovy
         System.out.println(b);
         String c = (String) calc.invokeMethod("addString", new Object[] { "Ankit", "Patel" });
         System.out.println(c);
+
+
+
     }
 
 
