@@ -10,7 +10,7 @@ class Basic {
         Yaml yaml = new Yaml()
         InputStream inputStream = this.getResourceAsStream("application.yml")
         Map<String, Object> obj = yaml.load(inputStream)
-
+        println obj
         for(o in obj.structure){
             println(o)
 
@@ -22,7 +22,7 @@ class Basic {
         basicCal("bonus",34)
        basicCal("firstName",40045)
 
-
+        println ctc1
 
         ctc1.put("firstName","Ankit")
         println ctc1
