@@ -2,7 +2,7 @@ class jp
 {
 
 
-public  def b(int a,int b )
+public static def b(int a, int b )
 {
 
     //jp.a()
@@ -18,12 +18,12 @@ public  def b(int a,int b )
 
 
 
-    public def  mul(int a,int b)
+    public static def  mul(int a, int b)
     {
         a*b
     }
 
-    public  def addString(String a,String b)
+    public static def addString(String a, String b)
     {
         a+b
     }
